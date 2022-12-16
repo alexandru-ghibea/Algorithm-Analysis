@@ -1,4 +1,3 @@
-#Array Pair Sum
 
 # Problem
 
