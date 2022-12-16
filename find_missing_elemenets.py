@@ -14,4 +14,4 @@ def finder(arr1,arr2):
     for index in range(len(arr1)):
         if arr2[index] != arr1[index]:
             return arr1[index]
-            brea
+            break
