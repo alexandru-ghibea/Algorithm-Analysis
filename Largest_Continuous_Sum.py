@@ -1,12 +1,13 @@
 # Given an array of integers (positive and negative) find the largest continuous sum.
 
-
 def large_cont_sum(arr):
     new_arr = iter(arr)
     suma = 0
     sums=[]
     while True:
-        if len(arr) > 2:
+        if len(arr) == 0:
+            return 0
+        elif len(arr) > 2:
             try:
                 for item in arr:
                     suma += next(new_arr)
